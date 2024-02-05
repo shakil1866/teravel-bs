@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- ============ CSS ========== -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- nav -->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Expoler</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img class="menu-btn" src="https://icon-library.com/images/mobile-menu-icon-png/mobile-menu-icon-png-22.jpg" alt="" srcset="">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Expoler the colorful world</h2>
+            <div class="line"> </div> 
+            <h1>A Wonderfull girft</h1>
+        <button type="button"  style="font-weight: 20px;"><a href="" class="ctn" style="font-weight: 20px;">learn more</a></button> 
+        </div>
+    </header>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navLinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navLinks.classList.toggle('mobile-menu')
+        })     
+        
+    </script>
+
+</body>
+</html>
